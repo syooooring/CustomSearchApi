@@ -30,4 +30,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'custom_search_api' => [
+        'api_key' => env('CUSTOM_SEARCH_API_KEY', 'Laravel'),
+        'engine_id' => env('ENGINE_ID', 'Laravel')
+    ]
 ];

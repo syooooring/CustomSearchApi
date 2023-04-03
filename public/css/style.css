@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #202124;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.inputWrapper {
+    position: relative;
+    display: block;
+}
+
+input {
+    border: none;
+    width: 80%;
+    font-size: 16px;
+    max-width: 456px;
+    margin: 0 auto;
+    height: 2.5rem;
+    border-radius: 50px;
+    padding: 0 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* search */
+#search {
+    background-color: #353535;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#search .logoWrapper,
+#search .input {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#search .logoWrapper {
+    top: 15%;
+}
+
+#search .input {
+    top: 25vh;
+    background-color: #fff;
+}
+
+#search .logo {
+    font-family: 'Naum Gothic';
+    font-weight: 700;
+}
+
+#search .logo h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+
+/* result */
+#result {
+    background-color: #202124;
+}
+
+#result .input {
+    background-color: #303134;
+    color: #e8eaed;
+}
+
+#result a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+#result .candidate {
+    margin-bottom: 4rem;
+}
+
+#result .candidate_title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: .1rem 0 0 0;
+}
+#result .candidate_title:hover {
+    text-decoration: underline;
+}
+
+#result .candidate_text {
+    color: #bdc1c6;
+}
+
+#result .candidate_url {
+    color: #bdc1c6;
+    font-size: .8rem;
+}
+
+#result .window {
+    height: 6vh;
+    border-bottom: 1px solid #3c4043;
+    padding: 2rem 0 0.5rem 2rem;
+    margin-bottom: 2rem;
+}
