@@ -14,7 +14,6 @@ class CustomSearchApiController extends Controller
      */
     public function top()
     {
-        //test
         return view('search_form');
     }
 
